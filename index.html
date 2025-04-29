@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Provisions</title>
+    <meta name="title" content="Siddhart Provisions - Grocery Store">
+    <meta name="description" content="This is a Grocery Store Website made by Kalash">
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/svg+xml">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> Siddharth Provisions </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">product</a>
+            <a href="#about">about</a>
+            <a href="#blog">blog</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-basket"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- shopping cart -->
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart1.jpg" alt="">
+                <div class="content">
+                    <h3>Chips</h3>
+                    <span class="price">₹40.00</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart2.jpg" alt="">
+                <div class="content">
+                    <h3>Avacado Juice</h3>
+                    <span class="price">₹199.89</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart3.png" alt="">
+                <div class="content">
+                    <h3>Sugarcane Juice</h3>
+                    <span class="price">₹60.00</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart4.jpg" alt="">
+                <div class="content">
+                    <h3>Pineapple</h3>
+                    <span class="price">₹64.00</span>
+                </div>
+            </div>
+            <h3 class="total"> total: <span> ₹363.89</span></h3>
+            <a href="#contact" class="btn">checkout</a>
+        </div>
+
+        <!-- end -->
+
+        <!-- login -->
+
+        <form action="" class="login-form">
+
+            <h3>login form</h3>
+
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <a href="#banner" class="btn"> login </a>
+
+        </form>
+
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>buy the best <span> organic product </span></h3>
+            <a href="#banner" class="btn"> get yours now </a>
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- banner -->
+
+    <section class="banner-container" id="banner">
+
+        <div class="banner">
+            <img src="images/banner1.png" alt="">
+            <div class="content">
+                <span>limited stock</span>
+                <h3>Vegetables</h3>
+                <a href="#product" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner2.png" alt="">
+            <div class="content">
+                <span>limited stock</span>
+                <h3>fruits</h3>
+                <a href="#product" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner3.png" alt="">
+            <div class="content">
+                <span>new segment</span>
+                <h3>assorted</h3>
+                <a href="#product" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Morning Bread 1Pc.</h3>
+                    <div class="price">₹38.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Elaichi (100gm.)</h3>
+                    <div class="price">₹399.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nescafe Latte Coffee</h3>
+                    <div class="price">₹40.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Watermelon (1.5Kg.)</h3>
+                    <div class="price">₹45.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Heinz Ketchup (900gm.)</h3>
+                    <div class="price">₹148.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fresh Mint (100 gm.)</h3>
+                    <div class="price">₹12.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about </span> us </h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>we keep the freshest food in market</h3>
+                <div class="divider"></div>
+                <p>From farm-fresh produce to packaged foods and breads, we bring the freshest essentials to your home fast, easy, and reliable.</p>
+
+                <a href="#blog" class="btn">read more</a>
+            </div>
+
+            <div class="image">
+                <img src="images/about1.png" alt="">
+            </div>
+
+            <div class="image">
+                <img src="images/about2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- review -->
+
+    <section class="review">
+
+        <h1 class="heading">Client's <span>Review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <p>Always super fresh and right on time. My go-to grocery stop!</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ram Nigam</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Love the variety, from veggies to breads, everything's top-notch</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Srishti Kapoor</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Quick delivery, great packaging, and quality I can trust every time</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ravneet Kaur</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Never thought grocery shopping could be this easy. Freshness guaranteed!</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-4.png" alt="">
+                        <div class="user-info">
+                            <h3>Ayush Gupta</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- blog -->
+
+    <section class="blog" id="blog">
+
+        <h1 class="heading"> our <span> blog</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog1.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>Farm to Fork: Why Freshness Matters More Than Ever</h3>
+                    <p>Explore how fresh produce impacts your health, taste, and the planet and how we ensure you get the best.</p>
+                    <a href="https://www.freshideasfood.com/three-reasons-why-using-fresh-ingredients-really-matters" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog2.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>Bread Talk: Choosing the Right Loaf for Every Meal</h3>
+                    <p>From sourdough to multigrain, find out which breads pair best with your everyday dishes.</p>
+                    <a href="https://www.cheftariq.com/guides/types-of-bread-ultimate-guide" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog3.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>Smart Grocery Shopping: Tips to Save Time & Eat Better</h3>
+                    <p>Master the art of planning your grocery list, reducing waste, and eating smarter without breaking the bank.</p>
+                    <a href="https://zenhabits.net/50-tips-for-grocery-shopping" class="btn"> read more </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> now </span> </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone">
+                </div>
+
+                <textarea placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Proprietor</h3>
+                <p>Aayush Pandey</p>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="tel:+91 74474 01417" class="link">+91 74474 01417</a>
+            </div>
+
+            <div class="box">
+                <h3>Location</h3>
+                <a href="https://www.google.com/maps/place/Siddharth+Kirana+And+General+Stores/@19.9680317,73.7945592,17.1z/data=!4m14!1m7!3m6!1s0x3bddebe5d1a00891:0x1fe767f91565c901!2sSiddharth+Kirana+And+General+Stores!8m2!3d19.9680952!4d73.7945535!16s%2Fg%2F11jflk82yb!3m5!1s0x3bddebe5d1a00891:0x1fe767f91565c901!8m2!3d19.9680952!4d73.7945535!16s%2Fg%2F11jflk82yb" class="link">Pandhari Devi Chowk, Mhasrool, Nashik, Maharashtra</a>
+            </div>
+
+        </div>
+
+        <div class="credit">Crafted with Love by<span> Kalash Patni | Siddharth Provisions</span> &copy; All Rights Reserved!</div>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
